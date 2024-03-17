@@ -1,8 +1,8 @@
 import './App.scss'
-import Header from './components/Header/Header'
-import Navigation from './components/Navigation/Navigation'
-import Info1 from './components/Info1/info1'
-import Slider2 from './components/Slider2/Slider2'
+import Header from './Components/Header/Header'
+import Navigation from './Components/Navigation/Navigation'
+import Info1 from './Components/Info1/info1'
+import Slider2 from './Components/Slider2/Slider2'
 
 function App() {
   return (

@@ -5,29 +5,28 @@
     height: 700px;
     width: 100%;
     position: relative;
-    overflow: hidden;
 
     &>.slick-slider {
         img {
-            height: 100%;
+            height: 700px;
         }
     }
 
     &__content {
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        gap: 15px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: $white;
+        width: 100%;
 
         h2 {
             user-select: none;
         }
-
 
         .btn {
             align-self: center;
