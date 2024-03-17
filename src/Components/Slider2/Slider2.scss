@@ -1,0 +1,36 @@
+@use '../../assets/webColors.scss' as *;
+
+.Slider2 {
+    margin-top: 120px;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    &>.slick-slider {
+        img {
+            height: 100%;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: $white;
+
+        h2 {
+            user-select: none;
+        }
+
+
+        .btn {
+            align-self: center;
+        }
+    }
+}

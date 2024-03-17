@@ -1,0 +1,51 @@
+@use '../../assets/webColors.scss' as *;
+
+.NavigationBG {
+  background-color: $pink;
+
+  .Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+
+    h4 {
+      color: $gray4;
+
+      span {
+        color: $light-pink;
+      }
+    }
+
+    &__menu {
+      display: flex;
+      gap: 76px;
+      color: $gray4;
+
+      li {
+        cursor: pointer;
+        transition: 200ms;
+
+        &:hover {
+          color: $light-pink;
+        }
+      }
+    }
+
+    &__btns {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      a {
+        cursor: pointer;
+        color: $gray4;
+        transition: 200ms;
+
+        &:hover {
+          color: $light-pink;
+        }
+      }
+    }
+  }
+}

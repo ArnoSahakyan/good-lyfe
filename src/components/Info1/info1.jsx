@@ -1,3 +1,4 @@
+import Button from '../Button/Button'
 import './Info1.scss'
 import {useSelector} from 'react-redux'
 export default function Info1() {
@@ -11,7 +12,7 @@ export default function Info1() {
         <div className="Info1__content">
             <h4>{info1.title}</h4>
             <p>{info1.description}</p>
-            <button>{info1.btn}</button>
+            <Button type={'bordered'}>{info1.btn}</Button>
         </div>
     </div>
   )
