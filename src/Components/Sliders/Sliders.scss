@@ -1,0 +1,39 @@
+@use '../../assets/webColors.scss' as *;
+
+.slick-slider {
+  height: 100%;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .slick-dots {
+    bottom: 40px;
+
+    li {
+      &.slick-active {
+        button:before {
+          opacity: 1;
+          font-size: 17px;
+          color: $pink;
+        }
+      }
+
+      button:before {
+        font-size: 13px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: 0.95;
+        color: $white;
+      }
+    }
+  }
+}

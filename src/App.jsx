@@ -1,9 +1,12 @@
 import './App.scss'
+import Header from './Components/Header/Header'
+import Navigation from './Components/Navigation/Navigation'
 
 function App() {
   return (
     <div className="App">
-      <h1>Dev Branch</h1>
+      <Navigation />
+      <Header />
     </div>
   )
 }
