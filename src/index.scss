@@ -2,4 +2,50 @@
   font-family: Poppins;
   line-height: 1.5;
   font-weight: 400;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 110%;
+}
+
+h5 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 110%;
 }
