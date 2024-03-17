@@ -19,7 +19,7 @@ export default function Sliders({ pictures }) {
     <Slider {...settings}>
       {
         pictures.map(pic => {
-          return <img key={pic} src={`../../../public/${pic}`} />
+          return <img key={pic} src={`/${pic}`} />
         })
       }
     </Slider>
