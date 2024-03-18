@@ -1,0 +1,52 @@
+@use '../../assets/webColors.scss' as *;
+
+.Info3BG {
+    background-color: $pink;
+
+    .Info3 {
+        display: flex;
+        align-items: center;
+        height: 491px;
+        position: relative;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+            color: $white;
+
+            p {
+                line-height: 37px;
+
+            }
+
+            span {
+                opacity: 0.6;
+                margin-top: 10px;
+            }
+
+            .downloads {
+                display: flex;
+                gap: 13px;
+
+                img {
+                    width: 135px;
+                    object-fit: cover;
+
+                }
+            }
+        }
+
+        &__image {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            img {
+                height: 572px;
+                object-fit: cover;
+            }
+        }
+    }
+}
