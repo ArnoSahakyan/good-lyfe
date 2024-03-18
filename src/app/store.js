@@ -5,6 +5,7 @@ import slider2slice from '../features/slider2slice'
 import info2slice from '../features/info2slice'
 import reviewsSlice from '../features/reviewsSlice'
 import info3slice from '../features/info3slice'
+import footerSlice from '../features/footerSlice'
 
 export default configureStore({
   reducer: {
@@ -13,7 +14,8 @@ export default configureStore({
     slider2: slider2slice,
     info2: info2slice,
     reviews: reviewsSlice,
-    info3:info3slice
+    info3:info3slice,
+    footer: footerSlice
   }
 },
 )
