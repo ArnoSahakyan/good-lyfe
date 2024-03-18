@@ -7,6 +7,7 @@ import Info2 from './Components/Info2/info2'
 import Reviews from './Components/Reviews/Reviews'
 import Info3 from './Components/Info3/Info3'
 import Socials from './Components/Socials/Socials'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Reviews />
       <Info3 />
       <Socials />
+      <Footer />
     </div>
   )
 }

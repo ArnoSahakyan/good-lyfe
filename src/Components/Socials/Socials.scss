@@ -29,7 +29,12 @@
             color: $pink;
             background-color: $white;
             font-size: 30px;
+            cursor: pointer;
+            transition: 200ms;
 
+            &:hover {
+                color: $light-pink;
+            }
         }
     }
 }
